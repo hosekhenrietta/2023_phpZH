@@ -21,7 +21,7 @@
 
 4. A feladatok végeztével tömörítsd be a megoldásokat tartalmazó mappát (zip), és töltsd fel a Canvasre!
 
-5. A feladatok megoldására **45 perc** áll rendelkezésre **+ 10 perc** az egyéb adminisztrációra (feladatok elolvasása, struktúra kialakítása, feltöltés).
+5. A feladatok megoldására **45 perc** áll rendelkezésre **+ 5 perc** az egyéb adminisztrációra (feladatok elolvasása, struktúra kialakítása, feltöltés).
 
 6. A zh-hoz bármilyen írott segédanyag használható, azaz az órai munkák és a gyakorlati videók anyaga is. Zh közbeni humán segítség használata tilos!
 
@@ -33,8 +33,8 @@
     - b\. (1 pont) Keressd meg, melyik ház diákjaiból vannak a legtöbben, írd ki a ház nevét, és az oldal háttérszínét állítsd át az aszerinti értékre. (a `colors`-ban vannak az egyes színek) 
     - c\. (0,5 pont) A Táblázat alá írd ki a legtöbb karakterből álló patrónust!
 
-2. **Felvétel a Roxfortba (6 pont)** Készíts egy regisztációs felületet, ahol meg tudsz adni egy nevet, egy emailcímet és ki tudod választani a roxforti házat.
-    - a\. (0,5 pont) A form legyen állapottartó
+2. **Felvétel a Roxfortba (6 pont)** Készíts egy regisztációs felületet, ahol meg tudsz adni egy nevet, egy emailcímet és ki tudod választani egy roxforti házat.
+    - a\. (0,5 pont) A form legyen állapottartó!
     - b\. (1 pont) Validáld a nevet: `legyen kitöltve és álljon minimum két részből amit vessző választ el - elég csak ezt validálni, kis és nagybetűkre nem kell figyelni`  *Tipp: Távolítsd el a felesleges szóközöket, majd `,` alapján vágd szét a stringet és nézd meg, hogy az elemeinek hosszúsága nagyobb-e mint 0*
         - példa helyes formátumra: `Random,Név` `random,név`
         - példa helytelen formátumra: `Random Név` , `      ,    ` , `random név,  `, 
