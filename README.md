@@ -34,18 +34,18 @@
     - c\. (0,5 pont) A Táblázat alá írd ki a legtöbb karakterből álló patrónust!
 
 2. **Felvétel a Roxfortba (6 pont)** Készíts egy regisztációs felületet, ahol meg tudsz adni egy nevet, egy emailcímet és ki tudod választani a roxforti házat.
-    - a\. (1 pont) A form legyen állapottartó
-    - b\. (1 pont) Validáld a nevet: `legyen kitöltve és álljon minimum két részből amit vessző választ el - elég csak ezt validálni, kis és nagybetűkre nem kell figyelni`  *Tipp: Távolitsd el a felesleges szóközöket, majd `,` alapján vágd szét a stringet és nézd meg, hogy az elemeinek hosszúsága nagyobb-e mint 0*
-        - helyes formátum: `Random,Név` `random,név`
-        - helytelen formátum: `Random Név` , `      ,    ` , `random név,  `, 
+    - a\. (0,5 pont) A form legyen állapottartó
+    - b\. (1 pont) Validáld a nevet: `legyen kitöltve és álljon minimum két részből amit vessző választ el - elég csak ezt validálni, kis és nagybetűkre nem kell figyelni`  *Tipp: Távolítsd el a felesleges szóközöket, majd `,` alapján vágd szét a stringet és nézd meg, hogy az elemeinek hosszúsága nagyobb-e mint 0*
+        - példa helyes formátumra: `Random,Név` `random,név`
+        - példa helytelen formátumra: `Random Név` , `      ,    ` , `random név,  `, 
 
     - c\. (0,5 pont) Validáld az email címet: `legyen kitöltve és legyen valid emailcím` *Tipp: használd a FILTER_VALIDATE_EMAIL-t*
-    - d\. (0,5 pont) Validáld a házat: `csak azt kell ellenőrizni, hogy van-e bármi kiválasztva, mást nem`  
+    - d\. (1 pont) Validáld a házat: `ki van-e választva valami és az helyes-e`  
     - e\. (0,5 pont) Elküldésnél, ha valami nincs helyesen kitöltve, jelenjenek meg a hibaüzenetek bárhol az oldalon  
     - f\. (0,5 pont) Elküldésnél, ha valami nincs helyesen kitöltve, jelenjenek meg a hibaüzenetek az egyes input mezők mellett
-    - g\. (2 pont) Elküldésnél, ha minden helyesen van kitöltve, egészítsd ki a `data.json` fájlt az új adat mentésével.
-        - (0,5 pont) Mentsd ki egy változóba a tartalmát
-        - (0,5 pont) add hozzá az új adatot az eddigi adatokhoz
-        - (0,5 pont) Mentsd el helyesen, olvasható formátumban *Tipp: Használd a JSON_PRETTY_PRINT-et*
-        - (0,5 pont) Írg ki hogy "Sikeres jelentkezés!" az űrlap felé
+    - g\. (2 pont) Elküldésnél, ha minden helyesen van kitöltve, egészítsd ki a `data.json` fájlt az új adat mentésével:
+        - (0,5 pont) Mentsd ki egy változóba a tartalmát!
+        - (0,5 pont) Add hozzá az új adatot az eddigi adatokhoz!
+        - (0,5 pont) Mentsd el helyesen, olvasható formátumban! *Tipp: Használd a JSON_PRETTY_PRINT-et*
+        - (0,5 pont) Írd ki, hogy "Sikeres jelentkezés!" az oldalra!
 
