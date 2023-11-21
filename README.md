@@ -43,7 +43,8 @@
     - e\. (0,5 pont) Elküldésnél, ha valami nincs helyesen kitöltve, jelenjenek meg a hibaüzenetek bárhol az oldalon  
     - f\. (0,5 pont) Elküldésnél, ha valami nincs helyesen kitöltve, jelenjenek meg a hibaüzenetek az egyes input mezők mellett
     - g\. (2 pont) Elküldésnél, ha minden helyesen van kitöltve, egészítsd ki a `data.json` fájlt az új adat mentésével.
-        - (1 pont) Mentsd ki egy változóba a tartalmát
+        - (0,5 pont) Mentsd ki egy változóba a tartalmát
         - (0,5 pont) add hozzá az új adatot az eddigi adatokhoz
         - (0,5 pont) Mentsd el helyesen, olvasható formátumban *Tipp: Használd a JSON_PRETTY_PRINT-et*
+        - (0,5 pont) Írg ki hogy "Sikeres jelentkezés!" az űrlap felé
 
