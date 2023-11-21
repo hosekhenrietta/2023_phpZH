@@ -36,7 +36,8 @@
 2. **Felvétel a Roxfortba (6 pont)** Készíts egy regisztációs felületet, ahol meg tudsz adni egy nevet, egy emailcímet és ki tudod választani a roxforti házat.
     - a\. (1 pont) A form legyen állapottartó
     - b\. (1 pont) Validáld a nevet: `legyen kitöltve és álljon minimum két részből amit vessző választ el - elég csak ezt validálni, kis és nagybetűkre nem kell figyelni`  *Tipp: Távolitsd el a felesleges szóközöket, majd `,` alapján vágd szét a stringet és nézd meg, hogy az elemeinek hosszúsága nagyobb-e mint 0*
-        - pl: "Rabdom,név" helyes,
+        - helyes formátum: `Random,Név`
+        - helytelen formátum: `Random Név` , `      ,    ` , `random név,  `, 
 
     - c\. (0,5 pont) Validáld az email címet: `legyen kitöltve és legyen valid emailcím` *Tipp: használd a FILTER_VALIDATE_EMAIL-t*
     - d\. (0,5 pont) Validáld a házat: `csak azt kell ellenőrizni, hogy van-e bármi kiválasztva, mást nem`  
