@@ -21,7 +21,7 @@
 
 4. A feladatok végeztével tömörítsd be a megoldásokat tartalmazó mappát (zip), és töltsd fel a Canvasre!
 
-5. A feladatok megoldására **45 perc** áll rendelkezésre **+ 5 perc** az egyéb adminisztrációra (feladatok elolvasása, struktúra kialakítása, feltöltés).
+5. A feladatok megoldására **45 perc** áll rendelkezésre **+ 10 perc** az egyéb adminisztrációra (feladatok elolvasása, struktúra kialakítása, feltöltés).
 
 6. A zh-hoz bármilyen írott segédanyag használható, azaz az órai munkák és a gyakorlati videók anyaga is. Zh közbeni humán segítség használata tilos!
 
